@@ -1,0 +1,7 @@
+# my_intron_splicing_1
+# removes the intron from a sequence
+# and splices the two exons back together
+
+genomic_dna = "ATCGATCGATCGATCGACTGACTAGTCATAGCTATGCATGTAGCTACTCGATCGATCGATCGATCGATCGATCGATCGATCGATCATGCTATCATCGATCGATATCGATGCATCGACTACTAT"
+
+print(genomic_dna[0:63] + genomic_dna[91:])
